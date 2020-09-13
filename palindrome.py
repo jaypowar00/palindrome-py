@@ -29,7 +29,6 @@ try:
                 next_p+=n_s[i]
             next_p=str(int(next_p)+1)
             next_p+=next_p[::-1]
-            print(next_p)
         else:
             for i in range(int(l/2+0.5) if l!=1 else 1):
                 next_p+=n_s[i]
